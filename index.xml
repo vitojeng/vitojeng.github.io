@@ -5,12 +5,34 @@
     <link>https://vitojeng.github.io/</link>
       <atom:link href="https://vitojeng.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Vitojeng&#39;s blog</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://vitojeng.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://vitojeng.github.io/images/icon_hubd4058982b79ade4023a62dfcb6db5a0_22207_512x512_fill_lanczos_center_2.png</url>
       <title>Vitojeng&#39;s blog</title>
       <link>https://vitojeng.github.io/</link>
     </image>
+    
+    <item>
+      <title>Test page</title>
+      <link>https://vitojeng.github.io/post/2020-11/my-first-blog/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://vitojeng.github.io/post/2020-11/my-first-blog/</guid>
+      <description>&lt;p&gt;猶䂊了很久, 還
+把荒廢很久的 wordpress blog 砍了.
+用 Hugo 在 Github 上重新把房子蓋起來
+不囉嗦, 決定
+很久以前, 曾經斷斷續續&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test page</title>
+      <link>https://vitojeng.github.io/post/2020-11/test_page/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://vitojeng.github.io/post/2020-11/test_page/</guid>
+      <description>&lt;p&gt;Test&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title></title>
