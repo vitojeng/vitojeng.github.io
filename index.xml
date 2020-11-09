@@ -13,19 +13,6 @@
     </image>
     
     <item>
-      <title>Test page</title>
-      <link>https://vitojeng.github.io/post/2020-11/my-first-blog/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://vitojeng.github.io/post/2020-11/my-first-blog/</guid>
-      <description>&lt;p&gt;猶䂊了很久, 還
-把荒廢很久的 wordpress blog 砍了.
-用 Hugo 在 Github 上重新把房子蓋起來
-不囉嗦, 決定
-很久以前, 曾經斷斷續續&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>test page</title>
       <link>https://vitojeng.github.io/post/2020-11/test_page/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
