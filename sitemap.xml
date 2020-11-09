@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://vitojeng.github.io/post/2020-11/my-first-blog/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://vitojeng.github.io/post/2020-11/test_page/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -23,71 +18,27 @@
   </url>
   
   <url>
-    <loc>https://vitojeng.github.io/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/authors/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/author/nelson-bighetti/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/tag/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/categories/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/category/demo/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitojeng.github.io/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://vitojeng.github.io/about/</loc>
   </url>
   
   <url>
+    <loc>https://vitojeng.github.io/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vitojeng.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vitojeng.github.io/author/nelson-bighetti/</loc>
+  </url>
+  
+  <url>
     <loc>https://vitojeng.github.io/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vitojeng.github.io/tags/</loc>
   </url>
   
 </urlset>
