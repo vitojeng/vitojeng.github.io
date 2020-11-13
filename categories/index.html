@@ -616,71 +616,15 @@
       
     
     
+      
     
     
-    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+    
+    <script src="/js/wowchemy.min.caeecc5dde98f41041a21ee3645b9357.js"></script>
 
     
 <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101286864);</script>
 <script async src="//static.getclicky.com/js"></script>
-
-
-
-
-
-<script type="text/javascript">
-$(document).ready(function() {
-  var getThemeMode = function() {
-    return parseInt(localStorage.getItem('dark_mode') || 2);
-  }
-
-  var isDarkTheme = function() {
-    var currentThemeMode = getThemeMode();
-    var isDark = false;
-    switch (currentThemeMode) {
-      case 0:
-        isDark = false;
-        break;
-      case 1:
-        isDark = true;
-        break;
-      default:
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          
-          isDark = true;
-        } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-          
-          isDark = false;
-        } else {
-          
-          isDark = isSiteThemeDark;
-        }
-        break;
-    }
-    return isDark;
-  }
-
-  var updateTheme = function(isDark) {
-    const s = {
-      type: 'set-theme',
-      theme: isDark ? 'github-dark' : 'github-light'
-    };
-    document.querySelector("iframe").contentWindow.postMessage(s, 'https://utteranc.es')
-  }
-
-  $(".nav-item.theme-dropdown .dropdown-item").click(function() {
-    updateTheme( isDarkTheme() );
-  });
-
-  addEventListener('message', event => {
-    if (event.origin !== 'https://utteranc.es') {
-      return;
-    }
-    updateTheme( isDarkTheme() );
-  });
-
-});
-</script>
 
 
 
