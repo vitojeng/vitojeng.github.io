@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Vitojeng&#39;s blog</title>
+    <title>Posts | Vito&#39;s blog</title>
     <link>https://vitojeng.github.io/post/</link>
       <atom:link href="https://vitojeng.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://vitojeng.github.io/images/icon_hubd4058982b79ade4023a62dfcb6db5a0_22207_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
@@ -13,11 +13,12 @@
     </image>
     
     <item>
-      <title>test page</title>
-      <link>https://vitojeng.github.io/post/2020-11/test_page/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://vitojeng.github.io/post/2020-11/test_page/</guid>
-      <description>&lt;p&gt;Test&lt;/p&gt;
+      <title>Hello, world</title>
+      <link>https://vitojeng.github.io/post/2020/hello-world/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://vitojeng.github.io/post/2020/hello-world/</guid>
+      <description>&lt;p&gt;終於決定要讓這個部落格開張, 寫一點東西, 向前邁進. 一方面希望能保持學習, 做為自己的學習記錄; 一方面也希望能藉由一些分享, 幫助有需要的人.&lt;/p&gt;
+&lt;p&gt;部落格網站使用 &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Pages&lt;/a&gt;, 用 &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; + &lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; 產生靜態頁面. 再整合 &lt;a href=&#34;https://github.com/vitojeng/vitojeng.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github issues&lt;/a&gt; 的 comments 做為頁面的留言版.&lt;/p&gt;
 </description>
     </item>
     
