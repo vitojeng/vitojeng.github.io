@@ -5,7 +5,7 @@
     <link>https://vitojeng.github.io/</link>
       <atom:link href="https://vitojeng.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Vito&#39;s blog</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://vitojeng.github.io/images/icon_hubd4058982b79ade4023a62dfcb6db5a0_22207_512x512_fill_lanczos_center_2.png</url>
       <title>Vito&#39;s blog</title>
@@ -13,10 +13,56 @@
     </image>
     
     <item>
+      <title>Blog failed to build</title>
+      <link>https://vitojeng.github.io/post/2020/11/blog-failed-to-build/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://vitojeng.github.io/post/2020/11/blog-failed-to-build/</guid>
+      <description>&lt;p&gt;想不到第一篇就要寫 blog build failed 的事&amp;hellip;QQ&lt;/p&gt;
+&lt;p&gt;建立這個 blog 的初始設定是由 &lt;a href=&#34;https://github.com/wowchemy/starter-blog&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wowchemy/starter-blog&lt;/a&gt; 來的.
+佈署在 Github Pages 上, 不使用官方建議的建立方式(佈署在 Netlify), 避免自己的 commit 跟 wowchemy 作者的 commit 混在一起;
+也不經由 github 的 &lt;strong&gt;Fork&lt;/strong&gt; 或是 &lt;strong&gt;Use this template&lt;/strong&gt; 的機制建立來 repo.&lt;/p&gt;
+&lt;p&gt;因此就會發生這個情境:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;必須要手動合併/更新 wowchemy/starter-blog, 在需要的時候&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;這個本來就在預期之中的, 只是萬萬沒想到, 今天遇到這個錯誤:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;[blog]master$ ./view.sh --buildDrafts
+hugo: downloading modules …
+hugo: collected modules in 4980 ms
+Start building sites … 
+Built in 6 ms
+Error: Error building site: &amp;quot;/xxx/xxx/xxx/blog/content/post/getting-started/index.md:39:1&amp;quot;: failed to extract shortcode: template for shortcode &amp;quot;toc&amp;quot; not found
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;經過合併/更新之後, 主要是更新了這二個檔案:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;go.mod&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;go.sum&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;大概有猜到是這個情形, 更新後再 build 一次, 前面 toc 的問題解了, 接著又遇到另一個錯誤:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;[blog]master$ ./view.sh --buildDrafts
+hugo: downloading modules …
+hugo: collected modules in 10633 ms
+WARN 2020/11/26 09:20:32 Module &amp;quot;github.com/wowchemy/wowchemy-hugo-modules/wowchemy&amp;quot; is not compatible with this Hugo version; run &amp;quot;hugo mod graph&amp;quot; for more information.
+Start building sites … 
+WARN 2020/11/26 09:20:32 Alert shortcode will be deprecated in future. Use Callout instead. Rename `alert` to `callout` in &amp;quot;post/writing-technical-content/index.md&amp;quot;
+ERROR 2020/11/26 09:20:33 You have chosen to use Formspree as the provider for the contact form. Please set your Formspree Form ID in the Contact widget or disable the form.
+ERROR 2020/11/26 09:20:33 Documentation: https://wowchemy.com/docs/page-builder/#contact
+Built in 478 ms
+Error: Error building site: logged 2 error(s)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;上面的 ERROR 雖然說明了原因, 修改 &lt;code&gt;contact.md&lt;/code&gt; 的設定就過關了.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;email_form = 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;只是不明白為什麼之前 build pass, 目前不想再追下去.&lt;/p&gt;
+&lt;p&gt;整件事跟 dependencies 有關, 為了避免日後再發生, 還是要找時間解決這個問題.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hello, world</title>
-      <link>https://vitojeng.github.io/post/2020/hello-world/</link>
+      <link>https://vitojeng.github.io/post/2020/11/hello-world/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://vitojeng.github.io/post/2020/hello-world/</guid>
+      <guid>https://vitojeng.github.io/post/2020/11/hello-world/</guid>
       <description>&lt;p&gt;終於決定要讓這個部落格開張, 寫一點東西, 向前邁進. 一方面希望能保持學習, 做為自己的學習記錄; 一方面也希望能藉由一些分享, 幫助有需要的人.&lt;/p&gt;
 &lt;p&gt;部落格網站使用 &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Pages&lt;/a&gt;, 用 &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; + &lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; 產生靜態頁面. 再整合 &lt;a href=&#34;https://github.com/vitojeng/vitojeng.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github issues&lt;/a&gt; 的 comments 做為頁面的留言版.&lt;/p&gt;
 </description>
